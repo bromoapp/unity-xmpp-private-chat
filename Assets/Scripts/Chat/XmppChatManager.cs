@@ -1,3 +1,5 @@
+using Assets.Scripts;
+using Assets.Scripts.Chat;
 using System;
 using UnityEngine;
 using Xmpp;
@@ -324,7 +326,14 @@ public class XmppChatManager : MonoBehaviour
     {
         if (msg.Body != null && msg.Body.Length > 0)
         {
-            incomingPrivateMessages.Add(msg);
+            if (msg.From.Bare.Contains(Config.MUC_MSG_KEYWORD))
+            {
+                // ----- Add new message into Group Conversation collection
+            }
+            else
+            {
+                incomingPrivateMessages.Add(msg);
+            }
         }
     }
 
