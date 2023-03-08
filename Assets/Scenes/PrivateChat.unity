@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 130.00003}
+  m_AnchoredPosition: {x: 0, y: 129.99997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &162069856
@@ -659,7 +659,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 361873663}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999833
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1068,14 +1068,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f397f5683a172f45827e7879cb59322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GroupChatBoardContent: {fileID: 0}
+  GroupChatItemObj: {fileID: 0}
+  PeopleListContent: {fileID: 0}
+  PeopleItemObj: {fileID: 0}
+  GroupListContent: {fileID: 0}
+  GroupItemObj: {fileID: 0}
+  GroupChatText: {fileID: 0}
+  GroupChatInput: {fileID: 0}
   ChatBoardContent: {fileID: 162069855}
   ChatItemObj: {fileID: 7982126209321270547, guid: ec696a50ccd5b6a408af63a81eda2913, type: 3}
   FriendsListContent: {fileID: 1537401733}
   FriendItemObj: {fileID: 1059021353663658075, guid: f2b2cb0536d9c50439515beb48271999, type: 3}
   ChatWithText: {fileID: 1016273730}
+  ChatInput: {fileID: 2074717984}
   UsernameInput: {fileID: 414229557}
   PasswordInput: {fileID: 789506060}
-  ChatInput: {fileID: 2074717984}
 --- !u!1 &573849723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,8 +1206,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 457557154}
-        m_TargetAssemblyTypeName: ChatManager, Assembly-CSharp
-        m_MethodName: OnSendBtnClicked
+        m_TargetAssemblyTypeName: XmppChatManager, Assembly-CSharp
+        m_MethodName: OnSendPrivateChatBtnClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

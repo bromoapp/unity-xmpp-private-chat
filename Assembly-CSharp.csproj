@@ -154,6 +154,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\bookmarks\Storage.cs" />
     <Compile Include="Assets\Xmpp\protocol\sasl\Failure.cs" />
+    <Compile Include="Assets\Scripts\Chat\GroupConversation.cs" />
     <Compile Include="Assets\Xmpp\Net\Dns\Enums.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\pubsub\PubSub.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\bytestreams\Mode.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="Assets\Xmpp\Xml\Xpnet\Position.cs" />
     <Compile Include="Assets\Xmpp\Factory\SaslFactory.cs" />
     <Compile Include="Assets\Xmpp\Net\PollingSocketException.cs" />
+    <Compile Include="Assets\Scripts\Chat\PeopleInfo.cs" />
     <Compile Include="Assets\Xmpp\protocol\iq\privacy\PrivacyIq.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\ibb\Base.cs" />
     <Compile Include="Assets\Xmpp\protocol\iq\agent\AgentsIq.cs" />
@@ -272,6 +274,7 @@
     <Compile Include="Assets\Xmpp\protocol\component\IQ.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\compression\CompressionMethod.cs" />
+    <Compile Include="Assets\Scripts\Chat\GroupInfo.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\filetransfer\File.cs" />
     <Compile Include="Assets\Xmpp\protocol\x\muc\StatusCode.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\pubsub\owner\Subscribers.cs" />
@@ -316,6 +319,7 @@
     <Compile Include="Assets\Xmpp\protocol\client\MessageType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\chatstates\Paused.cs" />
+    <Compile Include="Assets\Scripts\Chat\PeopleItem.cs" />
     <Compile Include="Assets\Xmpp\protocol\iq\private\Private.cs" />
     <Compile Include="Assets\Xmpp\Util\Hash.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\html\Html.cs" />
@@ -348,6 +352,7 @@
     <Compile Include="Assets\Xmpp\protocol\extensions\jivesoftware\phone\ActionType.cs" />
     <Compile Include="Assets\Xmpp\Xml\Dom\ElementList.cs" />
     <Compile Include="Assets\Xmpp\protocol\iq\avatar\AvatarIq.cs" />
+    <Compile Include="Assets\Scripts\Chat\GroupConversationItem.cs" />
     <Compile Include="Assets\Xmpp\Idn\Stringprep.cs" />
     <Compile Include="Assets\Xmpp\Sasl\Mechanism.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\bytestreams\UdpSuccess.cs" />
@@ -402,6 +407,7 @@
     <Compile Include="Assets\Xmpp\protocol\extensions\commands\Command.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\pubsub\Item.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\featureneg\FeatureNegIq.cs" />
+    <Compile Include="Assets\Scripts\Chat\GroupItem.cs" />
     <Compile Include="Assets\Xmpp\protocol\extensions\bosh\BoshType.cs" />
     <Compile Include="Assets\Xmpp\protocol\sasl\Mechanisms.cs" />
     <Compile Include="Assets\Xmpp\protocol\iq\roster\Delimiter.cs" />
